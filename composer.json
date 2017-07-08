@@ -1,5 +1,5 @@
 {
-    "name": "eliamlima/ecommerce",
+    "name": "hcodebr/ecommerce",
     "authors": [
         {
             "name": "Elia Lima",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "vendor\\hcodebr\\php-classes\\src"
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
         }
     }
 }
