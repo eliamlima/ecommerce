@@ -89,7 +89,7 @@ $app->get("/admin/users/:iduser", function($iduser){
 	$page = new PageAdmin();
 
 	$page->setTpl("users-update", array(
-		"user"=>$users->getValues()
+		"user"=>$user->getValues()
 	));
 });
 
